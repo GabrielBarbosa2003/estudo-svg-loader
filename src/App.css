@@ -1,0 +1,116 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00453e;
+  overflow: hidden;
+}
+.loader{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+}
+.loader-fundo{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+svg{
+  /* border: 1px red solid; */
+}
+
+/* path {
+  clip-path: polygon(50% 0%, 70% 0%, 70% 100%, 50% 100%);
+  border: 1px red solid;
+  transition: clip-path 1s ease-in-out;
+
+}
+path:hover{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+} */
+
+
+
+/* path {
+  d: path("M150, 10 L40, 200 L260, 200 L260, 200Z");
+  fill: #4c6edb;
+  transition: all 0.35s ease;
+}
+
+path:active {
+  d: path("M220, 10 L40, 10 L40, 220 L220, 220Z");
+  fill: #6e40aa;
+} */
+
+/* :root {
+  --color-1: #6e40aa;
+  --color-2: #4c6edb;
+  --color-3: #24aad8;
+  --color-4: #1ac7c2;
+  --color-5: #1ddea3;
+}
+
+.shape {
+  cy: 50;
+  r: 20;
+}
+
+.shape:nth-child(1) {
+  cx: 60;
+  fill: var(--color-1);
+}
+
+.shape:nth-child(2) {
+  cx: 120;
+  fill: var(--color-2);
+}
+
+.shape:nth-child(3) {
+  cx: 180;
+  fill: var(--color-3);
+}
+
+.shape:nth-child(4) {
+  cx: 240;
+  fill: var(--color-4);
+}
+
+.shape:nth-child(5) {
+  cx: 300;
+  fill: var(--color-5);
+}
+
+@keyframes moveCircle {
+  50% {
+    cy: 150;
+    r: 13;
+  }
+}
+
+.shape {
+  animation: moveCircle 1250ms ease-in-out both infinite;
+}
+
+.shape:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.shape:nth-child(3) {
+
+  animation-delay: 200ms;
+}
+
+.shape:nth-child(4) {
+  
+  animation-delay: 300ms;
+}
+
+.shape:nth-child(5) {
+  animation-delay: 400ms;
+} */
